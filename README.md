@@ -1,23 +1,23 @@
 
 
-Getting and Cleaning Data - Week 4 Assignment: Human Activity Recognition Using Smartphones Dataset
+## Getting and Cleaning Data - Week 4 Assignment: Human Activity Recognition Using Smartphones Dataset
 
 This repository contains information and code explanation of assignment (week 4) of Getting and Cleaning Data Course.
 Here are the steps for prepare the assignment:
 
-Download the data file into your working directory.
-Download the R source code (read data table) in your working directory.
-Execute R source code to generate tidy data file.
+- Download the data file into your working directory.
+- Download the R source code (read data table) in your working directory.
+- Execute R source code to generate tidy data file.
 
-Explanation Data Source: 
+### Explanation Data Source: 
 
-The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
-Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
-Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
+- The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+- Each subject performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+- Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+- The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 
 
-Data Explanation 
+### Data Explanation 
 
 For each record it is provided:
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
@@ -26,7 +26,7 @@ For each record it is provided:
 - Its activity labels. 
 - An identifier of the subject who carried out the experiment.
 
-R script: 
+### R script: 
 Create one R script called run_analysis. Create a new, independent tidy data set.
 R that does the following:
 Merges the training and the test sets to create one data set.
@@ -36,7 +36,7 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-The dataset includes the following files:
+**The dataset includes the following files:**
 
 - 'README.txt'
 - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -57,8 +57,7 @@ The following files are available for the train and test data. Their description
 Creating New Data Set
 As a goal of the assignment creating a tidy data set which contains variables based on calculation of mean and standard deviation of the each variable for each subject and each activity.
 
-Notes: 
-======
+### Notes:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
